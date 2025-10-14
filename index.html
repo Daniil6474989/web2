@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Архитектура</title>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -48,10 +49,10 @@
             </div>
         <div class="advantages-all">
             <div class="advantages">
-                <div class="text-advantages">
+                <div class="text-advantages-main">
                 <div class="advantages-1">[преимущества]</div>
                 <div class="text-advantages">
-                    <h2 class="text-advantages-h2"><span class="span-gold">Создаем пространства для жизни</span><br>
+                    <h2 class="text-advantages-h2"><span class="span-gold">Создаём пространства для жизни</span><br>
                     с заботой о вашем комфорте</h2>
                 </div>
                 </div>
@@ -199,9 +200,9 @@
         </div>
         <div class="form-section">
             <div class="form-title">
-                <h1>ДАВАЙТЕ СОЗДАДИМ<br>
+                <h2>ДАВАЙТЕ СОЗДАДИМ<br>
                     <span class="span-gold">ВАШЕ ИДЕАЛЬНОЕ<br>
-                        ПРОСТРАНСТВО</span> ВМЕСТЕ!</h1>
+                        ПРОСТРАНСТВО</span> ВМЕСТЕ!</h2>
                 <p>Оставьте свои контакты, и мы свяжемся с вами и ответим<br>
                      на все волнующие вас вопросы</p>
             </div>
@@ -241,43 +242,146 @@
     </section>
 
     <section class="personal">
-          <div class="personal-head">
-            <div class="personal-1">[команда]</div>
+  <div class="team-slider">
+    <div class="personal-head">
+        <div class="personal-1">[команда]</div>
             <div class="personal-title">
               <h2>Наши специалисты</h2>
             </div>
+        <div class="arrows">
+        <img class="swiper-button-next"src="/img/arrow-right.png">
+        <img class="swiper-button-prev" src="/img/arrow-left.png">
+    </div>
+    </div>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="team-card">
+            <img src="/img/man-4.png" alt="Николай Кульгин">
+            <div class="team-card__info">
+              <h3 class="team-card__name">Николай Кульгин</h3>
+              <p class="team-card__position">Ведущий архитектор</p>
+            </div>
           </div>
-        <div class="personal-all">
-            <div class="personal-card">
-                <div class="personal-image-one">
-                    <img class="man-4" src="/img/man-4.png">
-                </div>
-                 <h3 class="personal-card-title">Николай Кулыгин<br>
-                    Ведущий архитектор</h3>
-            </div>
-            <div class="personal-card">
-                <div class="personal-image-one">
-                    <img class="man-1" src="/img/Imgman1.png">
-                </div>
-                 <h3 class="personal-card-title">Илья Козлов<br>
-                    Арт-директор</h3>
-            </div>
-            <div class="personal-card">
-                <div class="personal-image-one">
-                    <img class="man-2" src="/img/Imgman2.png">
-                </div>
-                 <h3 class="personal-card-title">Роберт Соловьёв<br>
-                    Руководитель отдела реализации</h3>
-            </div>
-            <div class="personal-card">
-                <div class="personal-image-one">
-                    <img class="man-3" src="/img/Imgman3.png">
-                </div>
-                 <h3 class="personal-card-title">Василий Лугин<br>
-                    Архитектор</h3>
-            </div>
         </div>
-    </section>
+
+        <div class="swiper-slide">
+          <div class="team-card">
+            <img src="/img/Imgman1.png" alt="Илья Козлов">
+            <div class="team-card__info">
+              <h3 class="team-card__name">Илья Козлов</h3>
+              <p class="team-card__position">Арт-директор</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="team-card">
+            <img src="/img/Imgman2.png" alt="Роберт Соловьёв">
+            <div class="team-card__info">
+              <h3 class="team-card__name">Роберт Соловьёв</h3>
+              <p class="team-card__position">Руководитель отдела реализации</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="team-card">
+            <img src="/img/Imgman3.png" alt="Василий Лугин">
+            <div class="team-card__info">
+              <h3 class="team-card__name">Василий Лугин</h3>
+              <p class="team-card__position">Архитектор</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="team-card">
+            <img src="/img/Imgman3.png" alt="Василий Лугин">
+            <div class="team-card__info">
+              <h3 class="team-card__name">Василий Лугин</h3>
+              <p class="team-card__position">Архитектор</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="team-card">
+            <img src="/img/Imgman3.png" alt="Василий Лугин">
+            <div class="team-card__info">
+              <h3 class="team-card__name">Василий Лугин</h3>
+              <p class="team-card__position">Архитектор</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="team-card">
+            <img src="/img/Imgman3.png" alt="Василий Лугин">
+            <div class="team-card__info">
+              <h3 class="team-card__name">Василий Лугин</h3>
+              <p class="team-card__position">Архитектор</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    const swiper = new Swiper('.mySwiper', {
+      slidesPerView: 'auto',
+      spaceBetween: 30, 
+      mousewheel: true,
+      grabCursor: true,
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      on: {
+        click(e) {
+          const clickedSlide = e.target.closest('.swiper-slide');
+          if (clickedSlide) {
+            const slideIndex = parseInt(clickedSlide.getAttribute('data-swiper-slide-index'), 10);
+            if (!isNaN(slideIndex)) {
+              swiper.slideTo(slideIndex);
+            }
+          }
+        }
+      },
+
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1920: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        }
+      }
+    });
+  </script>
+  
+</section>
 
     <section class="process">
         <div class="process-head">
@@ -289,60 +393,94 @@
         <div class="process-items">
           <div class="process-item">
             <hr class="divider-process" />
-            <div class="process-question">Первая встреча с архитектором<img src="/img/icon-close.png"></div>
+            <div class="process-question"><h5>Первая встреча с архитектором</h5><span class="toggle-btn"></span></div>
             <div class="process-answer">На этом этапе мы расскажем вам, как будет строиться наше сотрудничество, и обсудим задачи вашего проекта.<br>
                  Вы просмотрите наше портфолио, и мы поможем вам определиться со стилистикой дома. На этом этапе важно<br>
                   как можно подробнее обсудить ваши пожелания и идеи, чтобы впоследствии проект полностью соответствовал<br>
                    вашим ожиданиям</div>
+          </div>
+          <hr class="divider-process" />
+          <div class="process-item">
+            <div class="process-question"><h5>Эскизный проект и визуализация</h5><span class="toggle-btn"></span></div>
+            <div class="process-answer">
+                <div class="process-text">  
+                    Создаём несколько вариантов концепций дома, его расположения на участке, которые обсуждаются<br>
+                    и дорабатываются вместе с вами. На этом этапе подключается дизайнер интерьера, они совместно с архитектором<br>
+                    детально прорабатывают планировку всех помещений, фасад дома. В результате составляется подробное<br>
+                    техническое задание для проектирования.</div>
+                <div class="process-answer-img-all">
+                    <div class="process-answer-img-one"><img class="img-visual" src="/img/Imgvisual.png"></div>
+                    <div class="process-answer-img-one"><img class="img-facade" src="/img/Imgfacade.png"></div>
+                </div>
+                <div class="process-answer-text">
+                    <div class="visual-text">Пример визуазации первого этажа</div>
+                    <div class="facade-text">Пример отделки фасада</div>
+                </div>
+            </div>
+          </div>
+          <hr class="divider-process" />
+          <div class="process-item">
+            <div class="process-question"><h5>Разработка архитектурного проекта</h5><span class="toggle-btn"></span></div>
+            <div class="process-answer">
+                <div class="process-text">
+                    На основе эскизного проекта и данных по участку проводятся все необходимые расчёты с учётом выбранных<br>
+                    материалов и технологии строительства, разрабатываются архитектурные (детальные чертежи и описание,<br>
+                    как и из каких материалов будет построен дом) и конструктивные (это детальная проработка и просчёт<br>
+                    конструкции дома) решения.</div>
+                <div class="process-answer-img-all">
+                    <div class="process-answer-img-two"><img class="img-project-1" src="/img/Imgproject1.png">
+                    </div>
+                    <div class="process-answer-img-two"><img class="img-project-2" src="/img/Imgproject2.png">
+                    </div>
+                </div>
+                <div class="process-answer-text-two">
+                    <div class="visual-text">Пример спецификации</div>
+                    <div class="facade-text">Пример плана вентиляции</div>
+                </div>
+            </div> 
             <hr class="divider-process" />
           </div>
           <div class="process-item">
-            <div class="process-question">Эскизный проект и визуализация<img src="/img/icon-close.png"></div>
-            <div class="process-answer">Создаём несколько вариантов концепций дома, его расположения на участке, которые обсуждаются<br>
-                 и дорабатываются вместе с вами. На этом этапе подключается дизайнер интерьера, они совместно с архитектором<br>
-                  детально прорабатывают планировку всех помещений, фасад дома. В результате составляется подробное<br>
-                   техническое задание для проектирования.</div>
-            <div class="process-answer-img-all">
-                <div class="process-answer-img-one"><img class="img-visual" src="/img/Imgvisual.png"></div>
-                <div class="visual-text">Пример визуазации первого этажа</div>
-                <div class="process-answer-img-one"><img class="img-facade" src="/img/Imgfacade.png"></div>
-                <div class="facade-text">Пример отделки фасада</div>
+            <div class="process-question"><h5>Разработка архитектурного проекта</h5><span class="toggle-btn"></span></div>
+            <div class="process-answer">
+                <div class="process-text">
+                    На основе эскизного проекта и данных по участку проводятся все необходимые расчёты с учётом выбранных<br>
+                    материалов и технологии строительства, разрабатываются архитектурные (детальные чертежи и описание,<br>
+                    как и из каких материалов будет построен дом) и конструктивные (это детальная проработка и просчёт<br>
+                    конструкции дома) решения.</div>
+                <div class="process-answer-img-all">
+                    <div class="process-answer-img-two"><img class="img-project-3" src="/img/Imgproject3.png">
+                    </div>
+                </div>
+                <div class="process-answer-text-three">
+                    <div class="visual-text">Пример проектной документации</div>
+                </div>
             </div>
             <hr class="divider-process" />
           </div>
           <div class="process-item">
-            <div class="process-question">Разработка архитектурного проекта<img src="/img/icon-close.png"></div>
-            <div class="process-answer">На основе эскизного проекта и данных по участку проводятся все необходимые расчёты с учётом выбранных<br>
-                 материалов и технологии строительства, разрабатываются архитектурные (детальные чертежи и описание,<br>
-                  как и из каких материалов будет построен дом) и конструктивные (это детальная проработка и просчёт<br>
-                   конструкции дома) решения.</div>
-            <div class="process-answer-img-all">
-                <div class="process-answer-img-one"><img class="img-project-1" src="/img/Imgproject1.png"></div>
-                <div class="visual-text">Пример спецификации</div>
-                <div class="process-answer-img-one"><img class="img-project-2" src="/img/Imgproject2.png"></div>
-                <div class="facade-text">Пример плана вентиляции</div>
-            </div>
-            <hr class="divider-process" />
-          </div>
-          <div class="process-item">
-            <div class="process-question">Разработка архитектурного проекта<img src="/img/icon-close.png"></div>
-            <div class="process-answer">На основе эскизного проекта и данных по участку проводятся все необходимые расчёты с учётом выбранных<br>
-                 материалов и технологии строительства, разрабатываются архитектурные (детальные чертежи и описание,<br>
-                  как и из каких материалов будет построен дом) и конструктивные (это детальная проработка и просчёт<br>
-                   конструкции дома) решения.</div>
-            <div class="process-answer-img-all">
-                <div class="process-answer-img-one"><img class="img-project-3" src="/img/Imgproject3.png"></div>
-                <div class="visual-text">Пример проектной документации</div>
-            </div>
-            <hr class="divider-process" />
-          </div>
-          <div class="process-item">
-            <div class="process-question">Согласование проекта дома<img src="/img/icon-close.png"></div>
+            <div class="process-question"><h5>Согласование проекта дома</h5><span class="toggle-btn"></span></div>
             <div class="process-answer">К этому этапу закончены все расчёты и оформление необходимых разрешений. Мы презентуем вам конечный<br>
                  вариант проекта дома и окончательно согласовываем его с вами.</div>
             <hr class="divider-process" />
           </div>
         </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+
+            const questionHeaders = document.querySelectorAll('.process-question');
+
+            questionHeaders.forEach(function (header) {
+                header.addEventListener('click', function (e) {
+
+                const processItem = this.closest('.process-item');
+                if (processItem) {
+                    processItem.classList.toggle('active');
+                }
+                });
+            });
+            });
+        </script>
     </section>
 
     <footer>
@@ -350,9 +488,9 @@
             <img class="img-footerr" src="/img/footer.png">
         </div>
         <div class="overlay-content">
-            <h1>Расскажите о доме<br>
+            <h2>Расскажите о доме<br>
                  вашей мечты — мы<br>
-                  воплотим его в жизнь!</h1>
+                  воплотим его в жизнь!</h2>
             <p class="subtitle">Оставьте свои контакты, и мы свяжемся с вами и подберём<br>
                  вам удобное время для встречи с архитектором</p>
             <form>
@@ -363,16 +501,17 @@
                 <input type="tel" id="phone" placeholder="Ваш телефон" required>
             </div>
             <div class="checkbox-footer">
-                <input type="checkbox" id="consent" required>
+                <input class="checkbox-box" type="checkbox" id="consent" required>
                 <label class="footer-checkbox" for="consent">Я согласен на обработку персональных данных и с условиями политики<br>
                      конфиденциальности</label>
             </div>
+            <div class="footer-btnn">
                 <a href="/"  class="footer-btn">Оставить заявку<img src="/img/mdi-light_arrow-left2.png"></a>
+            </div>
             </form>
         </div>
         </div>
     </footer>
-
     </div>
 </body>
 </html>
