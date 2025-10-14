@@ -1,4 +1,4 @@
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -57,4 +57,5 @@ document.addEventListener('DOMContentLoaded', function () {
           spaceBetween: 30,
         }
       }
+
     });
