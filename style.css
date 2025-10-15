@@ -15,6 +15,8 @@ body {
     .container{
         max-width: 120rem;
         margin: 0 auto;
+        overflow-y:hidden;
+        overflow-x:hidden;
     }
 
     .header{
@@ -28,7 +30,7 @@ body {
         gap:20px;
     }
 
-    .location-header h5{
+    .location-header p{
         font-size: 1.625rem;
         font-weight: 400;
         font-style: normal;
@@ -44,7 +46,7 @@ body {
         width: 66.8125rem;
     }
 
-    .header-tagline h5{
+    .header-tagline p{
         font-weight: 400;
         width: 27.25rem;
         position: relative;
@@ -91,7 +93,6 @@ body {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
         padding-bottom: 2.5rem;
-        gap: 380px;
     }
 
     .our-goal-1{
@@ -101,7 +102,11 @@ body {
         color: rgba(0, 0, 0, 0.5);
         text-transform: uppercase;
     }
-
+    .our-title{
+        width: 78.4375rem;
+        position: relative;
+        left: 20rem;
+    }
     .our-title h2{
         font-size: 3.75rem;
         font-style: normal;
@@ -187,7 +192,7 @@ body {
         width: 25.3125rem;
     }
 
-    .reason-h4 h4{
+    .reason-h4 p{
         color: #FDFDFD;
         font-size: 2rem;
         font-weight: 500;
@@ -567,7 +572,7 @@ body {
     cursor: pointer;
     }
 
-    .process-question h5 {
+    .process-question p {
     font-size: 1.625rem;
     font-weight: 500;
     font-style: normal;
@@ -683,7 +688,7 @@ body {
         display: grid;
     }
 
-    .overlay-content h2{
+    .overlay-content p{
         color: #FDFDFD;
         font-size: 50px;
         font-weight: 500;
@@ -755,6 +760,7 @@ body {
     }
 
     .img-bottom-all{
+        padding-top: 2.5rem;
         padding-left: 2.5rem;
     }
 
@@ -799,6 +805,8 @@ body {
     .container{
         max-width: 23.4375rem;
         font-family: "Golos Text";
+        overflow-y:hidden;
+        overflow-x:hidden;
     }
     .header{
         padding: .625rem;
@@ -875,6 +883,7 @@ body {
     }
     
     .our-goal-1{
+        width: 400px;
         font-weight: 400;
         font-style: normal;
         font-size: .875rem;
@@ -882,6 +891,7 @@ body {
         text-transform: uppercase;
         padding-bottom: 2.5rem;
     }
+
     .our-title h2{        
         font-size: 1.75rem;
         font-style: normal;
@@ -1508,6 +1518,4 @@ body {
         width: 23.4375rem;
         height: 20.75rem;
     }
-
 }
-
