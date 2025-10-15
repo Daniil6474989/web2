@@ -111,7 +111,7 @@ body {
 
     .our-text{
         position: relative;
-        left: 585px;
+        left: 515px;
         width: 79.1875rem;
         font-size: 1.75rem;
         font-weight: 400;
@@ -1507,4 +1507,5 @@ body {
         width: 23.4375rem;
         height: 20.75rem;
     }
+
 }
