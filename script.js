@@ -1,5 +1,4 @@
 
-
 document.addEventListener('DOMContentLoaded', function () {
 
   const questionHeaders = document.querySelectorAll('.process-question');
@@ -40,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
       },
 
       breakpoints: {
-        320: {
+        375: {
           slidesPerView: 1,
           spaceBetween: 20,
         },
@@ -57,5 +56,4 @@ document.addEventListener('DOMContentLoaded', function () {
           spaceBetween: 30,
         }
       }
-
     });
