@@ -226,6 +226,7 @@ body {
         font-size: 20px;
         font-style: normal;
         color: #A9A9A9;
+        text-transform: uppercase;
     }
 
     .img-box-title h2{
@@ -1509,3 +1510,4 @@ body {
     }
 
 }
+
