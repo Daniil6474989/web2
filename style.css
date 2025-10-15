@@ -798,7 +798,7 @@ body {
         max-width: 120rem;
     }
 
-@media (max-width:1440px){
+@media (max-width:1441px){
     .container{
         max-width: 90rem;
         margin: 0 auto;
@@ -930,21 +930,9 @@ body {
         font-weight: 400;
         font-style: normal;
     }
-
-    .line-two{}
     .img-two-head{
         gap: 10rem;
     }
-    .img-box-project{}
-    .img-box-title{}
-    .img-text-bottom{}
-    .img-text-bottom-two-1{}
-    .img-text-bottom-two-2{}
-    .img-text-bottom-two-3{}
-    .img-bottom-btn{}
-    .btn-card-two{}
-    .image-section{}
-    .form-section{}
     .form-title-h2{
         width: 40rem;
     }
@@ -956,18 +944,15 @@ body {
         line-height: 1;
         padding-bottom: 1.25rem;
     }
-    .form-title-p{}
+
     .form-group input{
         width: 37.5rem;
     }
-    .checkbox-group{}
-    .form-label{}
-    .submit-btn{}
-    .count-1{}
+
     .count-head{
         gap: 21rem;
     }
-    .count-title{}
+
     .count-test-1{
         padding-left: 29rem;
     }
@@ -977,58 +962,59 @@ body {
     .img-count-btn{
         padding-left: 29rem;
     }
-    .btn-count{}
     .personal-head{
         gap: 13rem;
     }
-    .personal-1{}
-    .personal-title{}
-    .arrows{}
-    .team-slider{}
-    .swiper-slide{}
-    .team-card{}
-    .team-card__info{}
-    .team-card__name{}
-    .team-card__position{}
-    .swiper-button-next{}
-    .swiper-button-prev{}
-    .process-head{}
-    .process-1{}
-    .process-title{}
-    .process-items{}
-    .process-question{}
-    .process-answer{}
-    .process-item{}
-    .process-answer-img-all{}
-    .process-answer-img-one{}
-    .process-answer-img-two{}
-    .img-visual{}
-    .img-facade{}
-    .img-project-1{}
-    .img-project-2{}
-    .img-project-3{}
-    .process-answer-text{}
-    .process-answer-text-two{}
-    .process-answer-text-three{}
-    .visual-text{}
-    .facade-text{}
-    .toggle-btn{}
-    footer{}
+    .process-answer-img-one{
+        width: 23.125rem;
+        height: 15.0625rem;
+    }
+    .process-answer-img-two{
+        width: 23.125rem;
+        height: 15.0625rem;
+    }
+    .img-visual{    
+        width: 26.125rem;
+        height: 15.0625rem;
+    }
+    .img-facade{
+        width: 18.125rem;
+        height: 11.0625rem;
+    }
+    .img-project-1{       
+        width: 19.1875rem;
+        height: 10.625rem;}
+    .img-project-2{
+        width: 19.1875rem;
+        height: 10.625rem;
+    }
+    .img-project-3{      
+        width: 19.1875rem;
+        height: 10.625rem;}
+    .process-answer-text{
+        gap: 6rem;
+        padding-left: .5rem;
+    }
+    .process-answer-text-two{
+        gap: 9rem;
+        padding-left: 4rem;
+    }
+    .process-answer-text-three{
+        padding-left: 1.125rem;
+    }
+
+    footer{
+        height:700px;
+    }
     .overlay-content{
         bottom: 37.5rem;
         left: 45%;
     }
-    .overlay-content-p-1{}
-    .overlay-content-p-2{}
-    .input{}
+
     .form-footer input{
         width: 660px;
     }
-    .checkbox-footer{}
-    .footer-label{}
-    .footer-checkbox{}
-    .footer-btn{}
-    .img-bottom-all{}
+
     .img-house-1-3{
         width: 90rem;
     }
@@ -1036,16 +1022,169 @@ body {
         width: 45rem;
         height: 43.75rem;
     }
-    .man-1{}
-    .man-2{}
-    .man-3{}
-    .man-4{}
     .img-footerr{
         width: 90rem;
     }
 }
 
-@media (max-width:1200px){
+@media (max-width:1201px){
+    .container{
+        width: 75rem;
+    }
+    .location-header{
+        gap: .625rem;
+    }
+
+    .location-header p{
+        font-size: 1.25rem;
+    }
+    .location-header img{
+        height: 26px;
+        width: 26px;
+
+    }
+
+    .header-title h1{
+        font-size: 2.5rem;
+        width: 31.25rem;
+    }
+    .header-tagline p{
+        bottom: 10rem;
+        font-size: 1.25rem;
+        left: 60%;
+    }
+    .header-button {
+        left: 60%;
+    }
+    .header-buttonn {
+        font-size: 1rem;
+    }
+    .span-gold
+    .img-house-1-4
+    .our-goal-all
+    .our-goal-1{
+        font-size: 1rem;
+    }
+    .our-title {
+        width: 800px;
+    }
+    .our-title h2{
+        width: 800px;
+        font-size: 2rem;
+    }
+
+    .our-text{
+        width: 700px;
+        font-size: 20px;
+    }
+    .advantages
+    .text-advantages-main{
+
+    }
+    .text-advantages h2{
+        font-size: 2rem;
+    }
+    .advantages-all
+    .advantages-1{
+        font-size: 1rem;
+    }
+    .advantages-grid
+    .reason {
+        width: 68.75rem;
+        gap: 1rem;
+    }
+    .reason-number {
+        font-size: 20px;
+    }
+    .reason-h4 p{
+        font-size: 20px;
+    }
+    .reason-p p{
+        font-size: .8125rem;
+    }
+    .line-two{
+        width: 68.75rem;
+    }
+    .img-two-head
+    .img-box-project {
+        font-size: 13px;
+    }
+    .img-box-title h2{
+        font-size: 40px;
+    }
+    .img-text-bottom
+    .img-text-bottom-two-1
+    .img-text-bottom-two-2
+    .img-text-bottom-two-3
+    .img-bottom-btn
+    .btn-card-two
+    .image-section
+    .form-section
+    .form-title-h2
+    .form-title
+    .form-title-p
+    .form-group
+    .checkbox-group
+    .form-label
+    .submit-btn
+    .count-1
+    .count-head
+    .count-title
+    .count-test-1
+    .count-test-2
+    .img-count-btn
+    .btn-count
+    .personal-head
+    .personal-1
+    .personal-title
+    .arrows
+    .team-slider
+    .swiper-slide
+    .team-card
+    .team-card__info
+    .team-card__name
+    .team-card__position
+    .swiper-button-next
+    .swiper-button-prev
+    .process-head
+    .process-1
+    .process-title
+    .process-items
+    .process-question
+    .process-answer
+    .process-item
+    .process-answer-img-all
+    .process-answer-img-one
+    .process-answer-img-two
+    .img-visual
+    .img-facade
+    .img-project-1
+    .img-project-2
+    .img-project-3
+    .process-answer-text
+    .process-answer-text-two
+    .process-answer-text-three
+    .visual-text
+    .facade-text
+    .toggle-btn
+    footer
+    .overlay-content
+    .overlay-content-p-1
+    .overlay-content-p-2
+    .input
+    .form-footer
+    .checkbox-footer
+    .footer-label
+    .footer-checkbox
+    .footer-btn
+    .img-bottom-all
+    .img-house-1-3
+    .img-house-1-2
+    .man-1
+    .man-2
+    .man-3
+    .man-4
+    .img-footerr
     
 }
 
@@ -1092,9 +1231,6 @@ body {
         font-weight: 400;
         font-style: normal;
         padding-bottom: .625rem;
-    }
-    .header-button{
-
     }
 
     .header-button{
