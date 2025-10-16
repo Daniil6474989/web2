@@ -1755,7 +1755,8 @@ body {
     right: 100px;
     }
     .toggle-btn{
-
+        position: relative;
+        right: 120px;
     }
     
 }
@@ -3050,6 +3051,8 @@ body {
         font-style: normal;
     }
     .toggle-btn{
+        position: relative;
+        right: 250px;
         width: 28px;
         height: 28px;
         display: flex;
@@ -3837,6 +3840,7 @@ body {
         font-style: normal;
     }
     .toggle-btn{
+        position: absolute;
         width: 28px;
         height: 28px;
         display: flex;
