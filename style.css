@@ -3056,13 +3056,13 @@ body {
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        background-image: url("/img/icon-open.png");
+        background-image: url("/img/icon-open.svg");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
     }
     .process-item.active .toggle-btn{
-        background-image: url("/img/icon-close.png");
+        background-image: url("/img/icon-close.svg");
     }
     .process-item.active .process-question h5{
         color: #0E0E0E;
