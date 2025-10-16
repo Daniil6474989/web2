@@ -1159,7 +1159,7 @@ body {
     }
 
     .reason{
-        width: calc(105rem*0.75);
+        width: calc(90rem*0.75);
         display: flex;
         justify-content: space-between;
         padding-top: .625rem;
