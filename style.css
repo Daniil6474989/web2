@@ -9,6 +9,7 @@ body {
     font-family: "Golos Text";
     background-color: #fff;
     color: #000;
+    overflow-x: hidden;
 }
 
 
@@ -1291,6 +1292,8 @@ body {
 
 @media (max-width:1201px){
     .container{
+        overflow-y:hidden;
+        overflow-x:hidden;
         width: 75rem;
     }
     .location-header{
@@ -1509,6 +1512,8 @@ body {
 
 @media (max-width:1199px){
     .container{
+        overflow-y:hidden;
+        overflow-x:hidden;
         width: 75rem;
     }
     .location-header{
@@ -1710,7 +1715,7 @@ body {
         font-size: 16px;
         width: 500px;
     }
-    .footer-checkbox{
+    .footer-checkbox-label{
         width: 500px;
     }
     .input{
@@ -2740,6 +2745,7 @@ body {
         align-items: center;
         gap: 10px;
         text-transform: uppercase;
+        border: 0;
     }
     .count{
         padding: 0 .625rem;
