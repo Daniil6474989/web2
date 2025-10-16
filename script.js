@@ -45,11 +45,11 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         768: {
           slidesPerView: 2,
-          spaceBetween: 20,
+          spaceBetween: 10,
         },
         1200: {
           slidesPerView: 3,
-          spaceBetween: 30,
+          spaceBetween: 20,
         },
         1920: {
           slidesPerView: 4,

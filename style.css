@@ -68,7 +68,7 @@ body {
         color: #0E0E0E;
         padding: 12px 24px;
         border-radius: 30px;
-        border: 1px solid #0E0E0E;;
+        border: 1px solid #0E0E0E;
         text-decoration: none;
         font-weight: 400;
         font-size: 20px;
@@ -260,6 +260,7 @@ body {
     }
 
     .img-text-bottom-two-3{
+        
         font-size: 20px;
         font-weight: 400;
         font-style: normal;
@@ -277,10 +278,9 @@ body {
         color: #0E0E0E;
         padding: 12px 24px;
         border-radius: 30px;
-        border: 1px solid #0E0E0E;;
         text-decoration: none;
+                border: 1px solid #0E0E0E;
         font-weight: 400;
-        font-size: 20px;
         font-size: 20px;
         display: inline-flex;
         align-items: center;
@@ -360,8 +360,8 @@ body {
         color: #FDFDFD;
         padding: 12px 24px;
         border-radius: 30px;
-        border: 1px solid #FDFDFD;
         text-decoration: none;
+        border: 1px solid #F8F8F8;
         font-weight: 400;
         font-size: 20px;
         font-size: 20px;
@@ -422,8 +422,8 @@ body {
         color: #0E0E0E;
         padding: 12px 24px;
         border-radius: 30px;
-        border: 1px solid #0E0E0E;
         text-decoration: none;
+                border: 1px solid #0E0E0E;
         font-weight: 400;
         font-size: 1.25rem;
         display: inline-flex;
@@ -534,7 +534,7 @@ body {
 
     .process-head{
         display: flex;
-        gap:22.75rem;
+        gap:30.75rem;
         padding-left: 2.5rem;
         padding-bottom: 6.25rem;
         padding-top: 6.25rem;
@@ -557,7 +557,7 @@ body {
 
     .process-items {
     display: grid;
-    padding-left: 31.875rem;
+    padding-left: 40.875rem;
     padding-bottom: 6.25rem;
     }
 
@@ -578,6 +578,7 @@ body {
     }
 
     .process-answer {
+    width: 71.8125rem;
     display: none;
     padding-bottom: 1.25rem;
     font-size: 1.25rem;
@@ -661,7 +662,7 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background-image: url("/img/icon-open.png");
+    background-image: url("/img/icon-open.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -669,7 +670,7 @@ body {
 
 
     .process-item.active .toggle-btn {
-    background-image: url("/img/icon-close.png");
+    background-image: url("/img/icon-close.svg");
     }
 
     .process-item.active .process-question h5 {
@@ -730,6 +731,8 @@ body {
     }
 
     .checkbox-footer{
+        display: flex;
+        gap: .625rem;
         padding-top: 1.25rem;
         padding-bottom: 2.5rem;
     }
@@ -747,10 +750,9 @@ body {
         color: #FDFDFD;
         padding: 12px 24px;
         border-radius: 30px;
-        border: 1px solid #FDFDFD;
+        border: 1px solid #F8F8F8;
         text-decoration: none;
         font-weight: 400;
-        font-size: 20px;
         font-size: 20px;
         display: inline-flex;
         align-items: center;
@@ -794,6 +796,7 @@ body {
     }
 
     .img-footerr{
+        filter: brightness(50%);
         background-color: #0E0E0E;
         max-width: 120rem;
     }
@@ -895,6 +898,12 @@ body {
         display: block;
         padding-left: 2.5rem;
     }
+    .personal-head{
+        gap: 19.75rem;
+    }
+    .personal-title h2{
+        font-size: 2.5rem;
+    }
     .line-two{
         width: 82.5rem;
     }
@@ -962,8 +971,17 @@ body {
     .img-count-btn{
         padding-left: 29rem;
     }
-    .personal-head{
-        gap: 13rem;
+    .process-head{
+        gap: 21rem;
+    }
+    .process-items{
+        padding-left: 30.875rem;
+    }
+    .process-title h2{
+        font-size: 2.5rem;
+    }
+    .process-answer{
+        width: 43.75rem;
     }
     .process-answer-img-one{
         width: 23.125rem;
@@ -992,11 +1010,11 @@ body {
         width: 19.1875rem;
         height: 10.625rem;}
     .process-answer-text{
-        gap: 6rem;
+        gap: 4rem;
         padding-left: .5rem;
     }
     .process-answer-text-two{
-        gap: 9rem;
+        gap: 8rem;
         padding-left: 4rem;
     }
     .process-answer-text-three{
@@ -1051,10 +1069,10 @@ body {
     .header-tagline p{
         bottom: 10rem;
         font-size: 1.25rem;
-        left: 60%;
+        left: 65%;
     }
     .header-button {
-        left: 60%;
+        left: 65%;
     }
     .header-buttonn {
         font-size: 1rem;
@@ -1077,10 +1095,7 @@ body {
         width: 700px;
         font-size: 20px;
     }
-    .advantages
-    .text-advantages-main{
 
-    }
     .text-advantages h2{
         font-size: 2rem;
     }
@@ -1088,7 +1103,7 @@ body {
     .advantages-1{
         font-size: 1rem;
     }
-    .advantages-grid
+    .advantages-grid{}
     .reason {
         width: 68.75rem;
         gap: 1rem;
@@ -1105,91 +1120,458 @@ body {
     .line-two{
         width: 68.75rem;
     }
-    .img-two-head
+    .image-section{
+        height: 600px;
+    }
     .img-box-project {
-        font-size: 13px;
+        font-size: .8125rem;
     }
     .img-box-title h2{
-        font-size: 40px;
+        font-size: 2.5rem;
     }
-    .img-text-bottom
-    .img-text-bottom-two-1
-    .img-text-bottom-two-2
-    .img-text-bottom-two-3
-    .img-bottom-btn
-    .btn-card-two
-    .image-section
-    .form-section
-    .form-title-h2
-    .form-title
-    .form-title-p
-    .form-group
-    .checkbox-group
-    .form-label
-    .submit-btn
-    .count-1
-    .count-head
-    .count-title
-    .count-test-1
-    .count-test-2
-    .img-count-btn
-    .btn-count
-    .personal-head
-    .personal-1
-    .personal-title
-    .arrows
-    .team-slider
-    .swiper-slide
-    .team-card
-    .team-card__info
-    .team-card__name
-    .team-card__position
-    .swiper-button-next
-    .swiper-button-prev
-    .process-head
-    .process-1
-    .process-title
-    .process-items
-    .process-question
-    .process-answer
-    .process-item
-    .process-answer-img-all
-    .process-answer-img-one
-    .process-answer-img-two
-    .img-visual
-    .img-facade
-    .img-project-1
-    .img-project-2
-    .img-project-3
-    .process-answer-text
-    .process-answer-text-two
-    .process-answer-text-three
-    .visual-text
-    .facade-text
-    .toggle-btn
-    footer
-    .overlay-content
-    .overlay-content-p-1
-    .overlay-content-p-2
-    .input
-    .form-footer
-    .checkbox-footer
-    .footer-label
-    .footer-checkbox
-    .footer-btn
-    .img-bottom-all
-    .img-house-1-3
-    .img-house-1-2
-    .man-1
-    .man-2
-    .man-3
-    .man-4
-    .img-footerr
-    
+    .img-text-bottom h3{
+        font-size: 2rem;
+    }
+    .img-text-bottom-two-1{
+        font-size: 1rem;
+
+    }
+    .img-text-bottom-two-2{
+        font-size: 1rem;
+    }
+    .img-text-bottom-two-3{
+        font-size: 1rem;
+    }
+    .img-bottom-btn{
+        left: 80%;
+    }
+    .btn-card-two{
+        font-size: 1rem;
+    }
+    .form-section{
+        left: 55%;
+        bottom: 31.25rem;
+
+    }
+    .form-title-h2{
+        width: 31.25rem;
+    }
+    .form-title h2{
+        font-size: 2rem;
+    }
+    .form-title-p{
+        width: 31.25rem;
+    }
+    .form-title p{
+        font-size: 1rem;
+    }
+    .form-group input{
+        font-size: .8125rem;
+        width: 31.25rem;
+    }
+    .checkbox-group{
+        width: 31.25rem;
+    }
+
+    .submit-btn{
+        font-size: .8125rem;
+    }
+    .count-1{
+        font-size: .8125rem;
+    }
+    .count-head{
+        gap: 22.8125rem;
+    }
+    .count-title h2{
+        font-size: 2rem;
+    }
+    .count-test-1{
+        font-size: 1.25rem;
+    }
+    .count-test-2{
+        font-size: 1.25rem;
+    }
+    .btn-count{
+        font-size: .8125rem;
+    }
+    .personal-head{
+        gap: 16rem;
+    }
+    .personal-1{
+        font-size: .8125rem;
+    }
+    .personal-title h2{
+        font-size: 2rem;
+    }
+    .swiper-button-next{
+        width: 1.625rem;
+        height: 1.625rem;
+    }
+    .swiper-button-prev{
+        width: 1.625rem;
+        height: 1.625rem;
+    }
+    .process-head{
+        padding-bottom: 3rem;
+        gap: 19.75rem;
+    }
+    .divider-process{
+        width: 44.375rem;
+    }
+    .process-1{
+        font-size: 1rem;
+    }
+    .process-title h2{
+        font-size: 2rem;
+    }
+    .process-items{
+        padding-left: 28rem;
+    }
+    .process-question p{
+        font-size: 1.25rem;
+    }
+    .process-answer{
+        font-size: .8125rem;
+    }
+
+    .overlay-content-p-1 p{
+        font-size: 2.5rem;
+    }
+    .overlay-content-p-2 p{
+        font-size: 16px;
+    }
+
+    .input{
+        height: 37.5rem;
+    }
+
+    .form-footer input{
+        width: 590px
+    }
+
+    .footer-checkbox label{
+        font-size: 1rem;
+    }
+    .footer-btn{
+        font-size: 1rem;
+    }
+
+    .img-house-1-2{
+        width: 37.5rem;
+        height: 37.5rem;
+    }
 }
 
-@media (max-width:768px){
-    
+@media (max-width:769px){
+    .container{
+        width: 48.0625rem;
+        overflow-y:hidden;
+        overflow-x:hidden;
+    }
+    .header{
+        padding: 1.5rem;
+        
+    }
+    .location-header{
+        gap: .3125rem;
+    }
+    .location-header img{
+        height: 1rem;
+        width: 1rem;
+    }
+    .location-header p{
+        font-size: .8125rem;
+    }
+    .header-title h1{
+        font-size: 1.75rem;
+        width: 21.875rem;
+    }
+    .header-tagline p{
+        bottom: 7rem;
+        font-size: 13px;
+        width: 14.375rem;
+        left: 55%;
+    }
+    .header-button{
+        bottom: 5rem;
+        left: 55%;
+    }
+    .header-buttonn{
+        font-size: 11px;
+    }
+    .img-house-1-4{
+        width: 48rem;
+    }
+    .our-goal-all{
+        padding: 1.5rem;
+    }
+    .our-goal-1{
+        font-size: 13px;
+        width: 9.375rem;
+    }
+    .our-title{
+        left: 9rem;
+    }
+    .our-title h2{
+        width: 25rem;
+        font-size: 1.5rem;
+    }
+    .our-text{
+        font-size: 13px;
+        width: 18.75rem;
+        left: 17.625rem;
+        padding-bottom:3rem;
+    }
+    .advantages{
+        padding: 1.5rem;
+    }
+    .text-advantages-main{
+        gap: 1rem;
+    }
+    .text-advantages h2{
+        font-size: 1.5rem;
+        width: 25rem;
+        
+    }
+    .advantages-all{
+        padding-top: 3rem;}
+
+    .reason{
+        width: 37.5rem;
+    }
+    .reason-number{
+        font-size: 1rem;
+    }
+    .reason-h4 p{
+        font-size: 1rem;
+    }
+    .reason-p p{
+        font-size: .8125rem;
+    }
+    .line-two{
+        width: 43.75rem;
+    }
+    .img-two-head{
+        gap: 5rem;
+    }
+    .img-box-title h2{
+        font-size: 1.5rem;
+    }
+    .img-text-bottom h3{
+        font-size: 20px;
+    }
+    .img-text-bottom-two-1{
+        font-size: .8125rem;
+    }
+    .img-text-bottom-two-2{
+        font-size: .8125rem;
+    }
+    .img-text-bottom-two-3{
+        font-size: .8125rem;
+    }
+    .img-bottom-btn{
+        left: 60%;
+    }
+    .img-bottom-btn img{
+        width: 13px;
+        height: 13px;
+    }
+    .btn-card-two{
+        font-size: .8125rem;
+    }
+    .image-section{
+        height: 22rem;
+    }
+    .form-section{
+        left: 20%;
+        bottom: 20rem;
+    }
+    .form-title-h2{
+        width: 25rem;
+    }
+    .form-title-h2 h2{
+        font-size: 1.5rem;
+    }
+    .form-title p{
+        font-size: .8125rem;
+    }
+    .form-title-p{
+        width: 25rem;
+    }
+    .form-group input{
+        width: 30rem;
+    }
+    .checkbox-group{}
+    .form-label{
+        font-size: .8125rem;
+    }
+    .checkbox-group-label{
+        width: 28.125rem;
+    }
+    .submit-btn{}
+    .count-1{}
+    .count-head{
+        gap: 10rem;
+        padding: 1.5rem;
+    }
+    .count-title h2{
+        font-size: 1.5rem;
+    }
+    .count-test-1{
+        padding-left: 245px;
+        width: 600px;
+        font-size: 13px;
+    }
+    .count-test-2{
+        padding-left: 245px;
+        width: 600px;
+        font-size: 13px;
+    }
+    .img-count-btn{
+        padding-left: 15rem;
+    }
+    .btn-count{}
+    .personal-head{
+        gap: 7rem;
+    }
+    .personal-1{}
+    .personal-title h2{
+        font-size: 24px;
+        width: 25rem;
+    }
+    .arrows{
+        right: 66%;
+        width: 0;
+        top: 750px;
+    }
+    .swiper-button-next{
+        position: relative;
+        left: 2.5rem;
+    }
+    .swiper-button-prev{
+        position: relative;
+        top: .875rem;
+
+    }
+    .divider-process{
+        width: 38rem;
+    }
+    .process{
+        padding-top: 5.75rem;
+    }
+    .process-head{
+        width: 600px;
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    .process-1{
+        font-size: .8125rem;
+    }
+    .process-title h2{
+        font-size: 1.5rem;
+    }
+    .process-items{
+        padding-left: 8rem;
+    }
+
+
+    .process-question p{
+        font-size: 1rem;
+    }
+    .process-answer{
+        width:600px;
+    }
+    .process-item{}
+    .process-answer-img-all{
+        display: block;
+    }
+    .process-answer-img-padding{
+        padding-bottom: 1.25rem;
+    }
+    .process-answer-img-one{}
+    .process-answer-img-two{}
+    .img-visual{}
+    .img-facade{}
+    .img-project-1{}
+    .img-project-2{}
+    .img-project-3{}
+    .process-answer-text{}
+    .process-answer-text-two{}
+    .process-answer-text-three{}
+    .visual-text-1{
+        position: relative;
+        bottom: 260px;
+        left: 60px;
+    }
+    .facade-text-1{
+        position: relative;
+        right: 11.875rem;
+    }
+    .toggle-btn{
+        position: relative;
+        right: 0px;
+    }
+    .visual-text-2{
+        position: relative;
+        bottom: 260px;
+        left: 50px;
+    }
+    .facade-text-2{
+        position: relative;
+        right: 15rem;
+    }
+    .visual-text-3{
+        position: relative;
+        left: 50px;
+    }
+    footer{
+        background-color: #0E0E0E;
+        height: 60rem;
+    }
+    .overlay-content{
+        left: 20%;
+        top: 50px;
+    }
+    .overlay-content-p-1 p{
+        font-size: 1.5rem
+    }
+
+    .overlay-content-p-2 p{
+        font-size: .8125rem;
+        width: 31.25rem;
+    }
+    .input{
+        height: 25rem;
+    }
+    .form-footer{}
+    .checkbox-footer{
+        width: 500px;
+        align-items: center;
+    }
+    .checkbox-footer label{
+        font-size: .8125rem;
+    }
+    .footer-label{}
+    .footer-checkbox {
+        
+    }
+    .footer-btn{
+        font-size: .8125rem;
+    }
+    .img-bottom-all{}
+    .img-house-1-3{
+        width: 48rem;
+    }
+    .img-house-1-2{
+        width: 0rem;
+        height: 0rem;
+    }
+
+    .img-footerr{
+        width: 48rem;
+        height: 25rem;
+    }
 }
 
 
@@ -1214,7 +1596,7 @@ body {
         width: 1.5rem;
         height: 1.5rem;
     }
-    .location-header h5{
+    .location-header p{
         font-size: 1rem;
         font-weight: 400;
         font-style: normal;
@@ -1226,18 +1608,37 @@ body {
         text-transform: uppercase;
         padding-bottom: .625rem;
     }
-    .header-tagline h5{
+    .header-tagline p{
         font-size: 1rem;
         font-weight: 400;
         font-style: normal;
         padding-bottom: .625rem;
+        top: 10px;
+        left: 0px;
     }
 
     .header-button{
         width: 252px;
         padding-bottom: 2.5rem;
+        position: relative;
+        top: 10px;
+        left: 0px;
     }
-
+    .svg-vector-1{
+        fill: #F8F8F8;
+    }
+    .svg-vector-2{
+        fill: #F8F8F8;
+    }
+    .svg-vector-3{
+        fill: #F8F8F8;
+    }
+    .svg-vector-4{
+        fill: #F8F8F8;
+    }
+    .svg-vector-5{
+        fill: #F8F8F8;
+    }
     .header-buttonn{
         background-color: #BF8427;
         cursor: pointer;
@@ -1251,6 +1652,7 @@ body {
         align-items: center;
         gap: .625rem;
         text-transform: uppercase;
+        border: 0;
     }
     .header-buttonn img{
         width: 1.4375rem;
@@ -1267,6 +1669,7 @@ body {
         height: 19.75rem;
     }
     .our-goal-all{
+        display: block;
         padding-top: 5.75rem;
         padding-left: .625rem;
         padding-right: .625rem;
@@ -1286,18 +1689,26 @@ body {
         font-size: 1.75rem;
         font-style: normal;
         font-weight: 500;
-        text-transform: uppercase;}
+        text-transform: uppercase;
+        position: relative;
+        width: 350px;
+        right: 145px;
+    }
+
     .our-text{
-        width: 22.1875rem;
-        font-size: 19px;
+        width: 21.25rem;
+        font-size: 16px;
         font-weight: 400;
         padding-left: .625rem;
         padding-bottom: 5rem;
+        position: relative;
+        left: 0px;
     }
     .advantages{
         padding-left: .625rem;
     }
     .text-advantages-main{
+        display: block;
         font-size: .875rem;
         font-style: normal;
         font-weight: 500;
@@ -1307,7 +1718,7 @@ body {
         padding-right: 90px;
     }
     .text-advantages h2{
-        font-size: 2.0625rem;
+        font-size: 1.75rem;
         font-style: normal;
         font-weight: 500;
         text-transform: uppercase;
@@ -1323,14 +1734,18 @@ body {
     }
     .advantages-1{        
         font-weight: 400;
-        font-size: 20px;
+        font-size: 14px;
         font-style: normal;
-        color: #A9A9A9;}
+        color: #A9A9A9;
+        padding-bottom: 2rem;
+    }
     .advantages-grid{
         display: grid;
         justify-content: center;
     }
     .reason{
+        position: relative;
+        left: 9.375rem;
         width: 22.1875rem;
         grid-template-columns: 23px 328px;
         display: grid;
@@ -1358,7 +1773,7 @@ body {
         grid-row-end: 1;
     }
 
-    .reason-h4 h4{
+    .reason-h4 p{
         color: #F8F8F8;
         font-size: 1.1875rem;
         font-style: normal;
@@ -1377,8 +1792,9 @@ body {
         font-weight: 400;
         font-style: normal;
     }
-    .line-two{}
+
     .img-two-head{
+        display: block;
         padding-left: .625rem;
         padding-top: 2.5rem;
         font-weight: 400;
@@ -1403,7 +1819,6 @@ body {
         color: #0E0E0E;
     }
     .img-text-bottom h3{
-        padding-left: .625rem;
         font-size: 1.3125rem;
         font-weight: 500;
         font-style: normal;
@@ -1411,27 +1826,27 @@ body {
         padding-top: 16px;
     }
     .img-text-bottom-two-1{
-        padding-left: .625rem;
         padding-bottom: .3125rem;
         font-size: .875rem;
         font-weight: 400;
         font-style: normal;
     }
     .img-text-bottom-two-2{
-        padding-left: .625rem;
         padding-bottom: .3125rem;
         font-size: .875rem;
         font-weight: 400;
         font-style: normal;
     }
     .img-text-bottom-two-3{
-        padding-left: .625rem;
-        padding-bottom: .625rem;
+        padding-bottom: 5rem;
         font-size: .875rem;
         font-weight: 400;
         font-style: normal;
     }
     .img-bottom-btn{
+        position: relative;
+        bottom: 60px;
+        left: 5px;
         padding-left: .625rem;
         width: 9.125rem;
         padding-bottom: 1.5rem;
@@ -1449,11 +1864,15 @@ body {
         align-items: center;
         gap: 10px;
         text-transform: uppercase;
+        border:0;
     }
     .image-section{
         background-color: #0E0E0E;
     }
     .form-section{
+        position: relative;
+        left: 0px;
+        top: 10px;
         padding-left: .625rem;
         color: #FDFDFD;
         background-color: #0E0E0E;
@@ -1492,6 +1911,8 @@ body {
         color: #FDFDFD;
     }
     .input{
+        height: 50rem;
+        background-color: #0E0E0E;
     }
     .checkbox-group{
         display: flex;
@@ -1540,27 +1961,33 @@ body {
         padding-bottom: 1.25rem;
     }
     .count-head{
+        padding: 0;
+        display: block;
         padding-bottom: 2.5rem;
     }
     .count-title h2{
-        font-size: 2.0625rem;
+        font-size: 1.75rem;
         font-weight: 500;
         font-style: normal;
         text-transform: uppercase;
     }
-        .count-test-1{
+    .count-test-1{
+        padding-left: 0;    
         width: 22.0625rem;
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
     }
-        .count-test-2{
-        width: 19.375rem;
+    .count-test-2{
+        padding-bottom: 0;
+        padding-left: 0;  
+        width: 23.75rem;
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
     }
     .img-count-btn{
+        padding-left: 0;
         padding-top:2.5rem;
         padding-bottom: 3.75rem;
     }
@@ -1577,8 +2004,10 @@ body {
         align-items: center;
         gap: 10px;
         text-transform: uppercase;
+        border:0;
     }
     .personal-head{
+        display: block;
         padding: 0 .625rem;
     }
     .personal-1{
@@ -1598,7 +2027,7 @@ body {
     }
     .arrows{
         position: relative;
-        left: 30%;
+        left: 35%;
         width: 7.5rem;
         top: 33.125rem;
 
@@ -1660,6 +2089,7 @@ body {
         margin: 0;
     }
     .swiper-button-next {
+        left: 5rem;
         width: 1.625rem;
         height: 1.625rem;
     
@@ -1677,6 +2107,8 @@ body {
     }
     .process-head{
         padding: 0 .625rem;
+        width: 12.5rem;
+        text-align: start;
     }
     .process-1{        
         font-weight: 400;
@@ -1686,6 +2118,7 @@ body {
         text-transform: uppercase;
     }
     .process-title{
+        padding-top: 1rem;
         padding-bottom: 1.25rem;
     }
     .process-title h2{
@@ -1707,13 +2140,14 @@ body {
         cursor: pointer;
         padding: 1.25rem 0;
     }
-    .process-question h5{
+    .process-question p{
         font-size: 1rem;
         font-weight: 500;
         font-style: normal;
     }
     .process-answer{
         display: none;
+        width: 320px;
         padding: 1.25rem 0;
         font-size: .8125rem;
         font-weight: 400;
@@ -1728,9 +2162,7 @@ body {
     .process-item.active .process-answer{
         display: block;
     }
-    .process-answer-img-all{
 
-    }
     .process-answer-img-padding{
         padding-bottom: 3.75rem;
     }
@@ -1823,8 +2255,10 @@ body {
     .process-item.active .process-question h5{
         color: #0E0E0E;
     }
-    footer{}
+
     .overlay-content{
+        position: relative;
+        left: 0;
         padding-left: .625rem;
         color: #FDFDFD;
         background-color: #0E0E0E;
@@ -1835,8 +2269,18 @@ body {
         font-weight: 500;
         font-style: normal;
         line-height: 1;
-        padding-bottom: 1.25rem;}
-    .overlay-content p{
+        padding-bottom: 1.25rem;
+    }
+
+    .overlay-content-p-1 p{
+        width: 20.625rem;
+        font-size: 1.75rem;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 1.25rem;
+    }
+    .overlay-content-p-2 p{
+        width: 21.25rem;
         font-size: .875rem;
         font-weight: 500;
         font-style: normal;
@@ -1845,6 +2289,7 @@ body {
     .form-footer{        
         padding-bottom: 1.25rem;}
     .form-footer input{
+        
         border: none;
         border-bottom: 1px solid #FDFDFD;
         color: #FDFDFD;
@@ -1857,10 +2302,14 @@ body {
         color: #FDFDFD;
     }
     .checkbox-footer{
+        width: 400px;
+        gap: 5px;
+        align-items: center;
         padding-top: 1.25rem;
         padding-bottom: 2.5rem;
     }
-    .footer-label{        font-size: .6875rem;
+    .footer-label{     
+        font-size: .6875rem;
         font-weight: 400;}
     .footer-checkbox{
         color: #FDFDFD;
@@ -1883,8 +2332,11 @@ body {
         align-items: center;
         gap: 10px;
         text-transform: uppercase;
+        border:0;
     }
     .img-bottom-all{
+        padding-left: 16px;
+        padding-right: 16px;
 
     }
     .img-house-1-3{
@@ -1895,17 +2347,17 @@ body {
         width: 23.4375rem;
         height: 20.75rem;
     }
-    .man-1{}
-    .man-2{}
-    .man-3{}
-    .man-4{}
+    footer{
+        height: 50rem;
+    }
     .img-footer{
         background-color: #0E0E0E;
         position: relative;
         top: .0625rem;
     }
     .img-footerr{
+        filter: brightness(100%);
         width: 23.4375rem;
-        height: 20.75rem;
+        height:15rem;
     }
 }
