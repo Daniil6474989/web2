@@ -3847,6 +3847,7 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+        color: black;
     }
     .process-item.active .toggle-btn{
         background-image: url("/img/icon-close.svg");
