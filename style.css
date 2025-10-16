@@ -1086,13 +1086,13 @@ body {
         width: 27.25rem;
         position: relative;
         font-size: 1.625rem;
-        left: 70%;
+        left: 65%;
         bottom: 250px;
         color:#0E0E0E;
     }
     .header-button{
         position: relative;
-        left: 70%;
+        left: 65%;
         bottom: 7.5rem;
     }
 
@@ -1103,7 +1103,7 @@ body {
     .our-title{
         width: calc(100%*0.75);
         position: relative;
-        left: 15rem;
+        left: 8rem;
     }
         .our-title h2{
         font-size: calc(3.75rem*0.75);
@@ -1113,8 +1113,8 @@ body {
     }
     .our-text{
         position: relative;
-        left: 435px;
-        width: calc(79.1875rem*0.75);
+        left: 325px;
+        width: calc(79.1875rem*0.68);
         font-size: 1.75rem;
         font-weight: 400;
         display: flex;
@@ -1126,7 +1126,7 @@ body {
         display: flex;
         font-style: normal;
         font-weight: 500;
-        gap: 14.375rem;
+        gap: 1.375rem;
         text-transform: uppercase;
         justify-content: space-between;
     }
@@ -1211,7 +1211,9 @@ body {
     .count-head{
         gap: 21rem;
     }
-
+    .img-bottom-btn{
+        left: 75%;
+    }
     .count-test-1{
         padding-left: 29rem;
     }
@@ -1284,15 +1286,19 @@ body {
     }
 
     .img-house-1-3{
-        width: 1200px;
+        width: 100%;
     }
     .img-house-1-2{
-        width: 45rem;
+        width: calc(100%*0.5);
         height: 43.75rem;
     }
     .img-footerr{
-        width: 1200px;
+        width: 100%;
         height: 700px;
+    }
+
+    .form-section{
+        left: 51%;
     }
 }
 
