@@ -700,6 +700,7 @@ body {
     }
 
     .overlay-content-p-2 p{
+        width: 600px;
         color: #FDFDFD;
         font-size: 20px;
         font-weight: 500;
@@ -795,8 +796,12 @@ body {
         max-width: 25.3125rem;
         max-height: 32.4375rem;
     }
+    .footer-checkbox-label{
+        width: 600px;
+    }
 
     .img-footerr{
+       
         filter: brightness(50%);
         background-color: #0E0E0E;
         max-width: 120rem;
@@ -1081,13 +1086,13 @@ body {
         width: 27.25rem;
         position: relative;
         font-size: 1.625rem;
-        left: 65%;
+        left: 70%;
         bottom: 250px;
         color:#0E0E0E;
     }
     .header-button{
         position: relative;
-        left: 65%;
+        left: 70%;
         bottom: 7.5rem;
     }
 
@@ -1279,14 +1284,15 @@ body {
     }
 
     .img-house-1-3{
-        width: 90rem;
+        width: 1200px;
     }
     .img-house-1-2{
         width: 45rem;
         height: 43.75rem;
     }
     .img-footerr{
-        width: 90rem;
+        width: 1200px;
+        height: 700px;
     }
 }
 
@@ -1707,6 +1713,7 @@ body {
     }
     .overlay-content{
         left: 35%;
+        bottom: 38rem;
     }
     .overlay-content-p-1 p{
         font-size: 2.5rem;
